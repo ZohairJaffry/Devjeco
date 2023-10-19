@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+
+        body{
+            overflow-x: hidden;
+          }
+        
+          .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 1200px;
+          }
+          
+          .curved-blue-button {
+            background-color: #427CE9;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 12px 24px;
+            font-size: 16px;
+            width: 95vw; /* Adjust the width as needed */
+          }
+          @media (max-width: 767px) {
+            .curved-blue-button {
+              width: 100vw;
+            }
+          }
+
+          @media (min-width: 1440px) {
+            .curved-blue-button {
+              width: 80vw;
+            }
+          }
+          
+         
+
+       
+         
+        
+    </style>
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DevJeco - Innovative AI = Maximum ROI">
+    <meta name="keywords" content="AI, Artificial Intelligence, Big Data, Data Science, Cloud Computing, Text Analysis, Video Analysis, Image Analysis, Data Analysis, Python, Python3.0, PyTorch, Matplotlib, Seaborn, Data Visualisation, Power BI, Tableau, SQL, Postgress, ReGex">
+    <!-- ========== Page Title ========== -->
+    <title>MTO - DevJeco - Innovative AI = Maximum ROI</title>
+
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="assets/img/d.png" type="image/x-icon">
+
+    <!-- ========== Start Stylesheet ========== -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/themify-icons.css" rel="stylesheet" />
+    <link href="assets/css/flaticon-set.css" rel="stylesheet" />
+    <link href="assets/css/magnific-popup.css" rel="stylesheet" />
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/bootsnav.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+    <!-- ========== End Stylesheet ========== -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5/html5shiv.min.js"></script>
+      <script src="assets/js/html5/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ========== Google Fonts ========== -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="dark-layout">
+
+    
+
+    <!-- Header 
+    ============================================= -->
+    <header id="home">
+
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-default transparent navbar-fixed navbar-transparent white bootsnav">
+
+            <div class="container">
+
+                <!-- Start Atribute Navigation -->
+                <div class="attr-nav">
+                    <ul>
+                        <li class="side-menu"><a ><i class="ti-menu-alt"></i></a></li>
+                    </ul>
+                </div>        
+                <!-- End Atribute Navigation -->
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index">
+                        <img src="assets/img/dlogo.png" class="logo" alt="Logo" style="width: 225px;">
+                    </a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                  <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li >
+                            <a href="index" >Home</a>
+                        </li>
+                        <li >
+                            <a href="about-us" >About Us</a>
+                        </li>
+                       <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown">Services</a>
+                              <ul class="dropdown-menu">
+                                <li><a href="ai-chatbot">AI Chatbot</a></li>
+                                <li><a href="netsuite">NetSuite</a></li>
+                            <li><a href="ario">ARIO</a></li>
+                                <li><a href="ai-consultancy">AI Consultancy</a></li>
+                                <li><a href="mvp-design">MVP Design</a></li>
+                                <li><a href="data-science">Data Science</a></li>
+                                <li><a href="cloud-computing">Cloud Computing</a></li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown">Analysis</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="video-analysis">Video Analysis</a></li>
+                                        <li><a href="image-analysis">Image Analysis</a></li>
+                                        <li><a href="text-analysis">Text Analysis</a></li>
+                                    </ul>
+                                </li>
+                         
+                         
+                            </ul>
+                        </li>
+                       <li><a href="work">Work</a></li>
+                        
+                        <li >
+                            <a href="blog">Blog</a>
+                        </li>
+                       
+                        <li>
+                            <a href="contact">Contact</a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+            <div class="side">
+                <a href="#" class="close-side"><i class="ti-close"></i></a>
+                <div class="widget">
+                    <h4 class="title">Contact Info</h4>
+                    <ul class="contact">
+                        <li>
+                            <div class="icon">
+                                <i class="flaticon-email"></i>
+                            </div>
+                            <div class="info">
+                                <span>Email</span> bd@devjeco.com
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="flaticon-call-1"></i>
+                            </div>
+                            <div class="info">
+                                <span>Phone</span>+92-341-645-8237
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="flaticon-countdown"></i>
+                            </div>
+                            <div class="info">
+                                <span>Office Hours</span> Mon - Fri : 10:00 - 7:00
+                            </div> 
+                        </li>
+                    </ul>
+                </div>
+                <div class="widget">
+                    <h4 class="title">Additional Links</h4>
+                    <ul>
+                        <li><a href="about-us">About</a></li>
+                        <li><a href="blog">Blog</a></li>
+                        <li><a href="contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="widget social">
+                    <h4 class="title">Connect With Us</h4>
+                    <ul class="link">
+                        <li class="linkedin">
+                            <a href="https://www.linkedin.com/company/devjeco/mycompany/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                        <li class="linkedin">
+                            <a href="https://www.instagram.com/lifeatdevjeco/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+        <!-- End Navigation -->
+
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Breadcrumb 
+    ============================================= -->
+    <div class="breadcrumb-area gradient-bg text-light text-center">
+        <!-- Fixed BG -->
+        <div class="fixed-bg" style="background-image: url(assets/img/shape/1.png);"></div>
+        <!-- Fixed BG -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h1>Management Trainee</h1>
+                    <ul class="breadcrumb">
+                        <li><a href="index"><i class="fas fa-home"></i> Home</a></li>
+                        <li>Careers</li>
+                        <li class="active">MTO</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumb -->
+
+    <!-- Start Our About
+    ============================================= -->
+    <div class="about-area bg-gray overflow-hidden rectangular-shape default-padding">
+        <div class="about-area bg-gray overflow-hidden rectangular-shape default-padding">
+            <div class="container">
+                <div class="about-items choseus-items right-thumb">
+                    <div class="row align-center">
+                        <div class="col-lg-4">
+                            <div class="info wow fadeInLeft">
+                                <h2>Welcome to the DevJeco MTO Program
+
+                                </h2>
+                                <span>At DevJeco, we believe in nurturing exceptional talent and empowering the next generation of business and technology leaders. Our Management Trainee Officer (MTO) Program is designed to provide aspiring professionals with a unique opportunity to fast-track their careers, gain hands-on experience, and unlock their full potential</span>
+                                
+                            </div>
+                            <p><br></p>
+                            <a href="https://forms.gle/Hq4bkNiUyg91BKTo7" target="_blank">
+                                <button class="curved-blue-button" style="width:300px;">Apply Now</button>
+                            </a>
+
+                        </div>
+                        
+                        <div class="col-lg-8">
+                            <div class="thumb wow fadeInUp" data-wow-delay="0.5s">
+                                <img src="assets/img/team-photo-rec.jpg" alt="Thumb" style="padding:10px;border:10px solid aquamarine; border-radius: 25px;">
+                            </div>
+
+                            
+                        </div>
+
+                        
+
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Our Team -->
+    
+
+    
+
+    
+    <!-- Start What is MTO -->
+   <div class="our-team-area default-padding-bottom bottom-less">
+        <div class="container">
+            <div class="services-area carousel-shadow default-padding">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <div class="site-heading text-center">
+                                <h2>Why Choose the DevJeco MTO Program?</h2>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="services-items iconic text-center services-carousel owl-carousel owl-theme">
+                                <!-- Single Item -->
+                                <div class="item">
+                                    <h4>Accelerate Your Growth</h4>
+                                    <i class="flaticon-operative-system"></i>
+                                    <p>
+                                        The MTO Program is a transformative journey that propels your professional development. Through a comprehensive curriculum, mentoring, and challenging assignments, you'll acquire the skills and knowledge necessary to excel in the dynamic fields of business development and project management.
+                                    </p>
+                                </div>
+                                <!-- Single Item -->
+                                <div class="item">
+                                    <h4>Immersive Learning Experience</h4>
+                                    <i class="flaticon-data-processing"></i>
+                                    <p>
+                                        Immerse yourself in a collaborative and innovative environment where you'll work alongside industry experts. Gain practical insights, explore emerging technologies, and tackle real-world challenges to sharpen your problem-solving abilities and critical thinking skills.
+
+                                    </p>
+                                </div>
+                                <!-- Single Item -->
+                                <!-- Single Item -->
+                                <div class="item">
+                                    <h4>Rotational Exposure</h4>
+                                    <i class="flaticon-value"></i>
+                                    <p>
+                                         As an MTO, you'll have the opportunity to experience different facets of DevJeco's operations. Through rotations in business development, marketing, and project management, you'll develop a well-rounded skill set, expand your horizons, and gain a holistic understanding of our organization.
+                                    </p>
+                                </div>
+                                <div class="item">
+                                    <h4>Mentorship and Guidance</h4>
+                                    <i class="flaticon-medal"></i>
+                                    <p>
+                                        We believe in the power of mentorship. Throughout the program, you'll receive guidance from seasoned professionals who will support your growth, provide valuable insights, and help you navigate your career path within DevJeco.
+
+                                    </p>
+                                </div>
+                                <div class="item">
+                                    <h4>Impactful Projects</h4>
+                                    <i class="flaticon-robot"></i>
+                                    <p>Make a tangible impact through your contributions to high-impact projects. Collaborate with multidisciplinary teams, drive innovation, and witness the transformative power of AI as we revolutionize industries and shape the future.
+                                    </p>
+                                    
+                                </div>
+                                
+                                <!-- Single Item -->
+                                <!-- Single Item -->
+                                <!-- Single Item -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="our-team-area default-padding-bottom bottom-less">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h2>
+                            What Streams Are Available?
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="team-items text-center">
+                <div class="row">
+                    <div class="col-lg-12">
+                        
+                        <div class="center-tabs">
+                            <ul id="tabs" class="nav nav-tabs">
+                                <li class="nav-item">
+                                    <a href="" data-target="#tab1" data-toggle="tab" class="active nav-link">Software Development</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" data-target="#tab2" data-toggle="tab" class="nav-link">HR & Operations</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" data-target="#tab3" data-toggle="tab" class="nav-link">Business Development</a>
+                                </li>
+        
+                                <li class="nav-item">
+                                    <a href="" data-target="#tab5" data-toggle="tab" class="nav-link">Technical Project Management</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" data-target="#tab6" data-toggle="tab" class="nav-link">Data Science</a>
+                                </li>
+                                
+                            </ul>
+                            <div id="tabsContent" class="tab-content wow fadeInUp" data-wow-delay="0.5s">
+                                <div id="tab1" class="tab-pane fade active show">
+                                    <div class="row align-center">
+                                        <div class="col-lg-7 col-md-12 info">
+                                            <p>
+                                                Incorporate software development capabilities into our MTO program by building customized software solutions that streamline management, and production, improving operational efficiency and enabling seamless communication between HR, Operations, and other departments. Additionally, invest in agile software development methodologies to adapt quickly to changing customer demands, enhance user experience, and drive innovation in our MTO operations.                                            </p>
+                                        </div>
+                                        <div class="col-lg-5 col-md-12 thumb">
+                                            <img src="assets/img/icon/software-development.png" alt="Thumb">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab2" class="tab-pane fade">
+                                    <div class="row align-center">
+                                        <div class="col-lg-7 col-md-12 info">
+                                            <p>To enhance our MTO program, focus on implementing effective workforce planning strategies that align HR and Operations, enabling flexible resource allocation and agile presentation. Additionally, invest in advanced technologies such as automation and machine learning to optimize processes, reduce lead times, and enhance overall operational efficiency.</p>                                            
+                                        </div>
+                                        <div class="col-lg-5 col-md-12 thumb">
+                                            <img src="assets/img/icon/hr.png" alt="Thumb">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab3" class="tab-pane fade">
+                                    <div class="row align-center">
+                                        <div class="col-lg-7 col-md-12 info">
+                                           <p>To strengthen our MTO program, focus on business development initiatives such as market research, customer segmentation, and strategic partnerships to identify new market opportunities and target specific customer segments. Additionally, invest in relationship-building and effective communication channels with key stakeholders, leveraging their insights to tailor products, enhance customer satisfaction, and drive growth in our MTO operations.</p>
+                                        </div>
+                                        <div class="col-lg-5 col-md-12 thumb">
+                                            <img src="assets/img/final-report.png" alt="Thumb">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                               
+                                <div id="tab5" class="tab-pane fade">
+                                    <div class="row align-center">
+                                        <div class="col-lg-7 col-md-12 info">
+                                            <p>To enhance our MTO program, incorporate strong technical project management practices by establishing clear project goals, defining scope and milestones, and implementing effective project tracking and coordination tools. Additionally, assign skilled project managers who can efficiently manage resources, mitigate risks, and ensure the timely execution of projects, resulting in improved project outcomes and customer satisfaction in our MTO operations.</p>
+                                        </div>
+                                        <div class="col-lg-5 col-md-12 thumb">
+                                            <img src="assets/img/icon/tpm.png" alt="Thumb">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="tab6" class="tab-pane fade">
+                                    <div class="row align-center">
+                                        <div class="col-lg-7 col-md-12 info">
+                                            <p>To leverage Data Science in our MTO program, integrate data analytics and machine learning techniques to gain insights from customer preferences, data, and market trends, enabling data-driven decision-making for customized development, optimized planning, and efficient resource allocation. Additionally, invest in developing a data-driven culture by building a team of data scientists and providing them with the necessary tools and resources to extract valuable insights and drive continuous improvement in our MTO operations.</p>
+                                        </div>
+                                        <div class="col-lg-5 col-md-12 thumb">
+                                            <img src="assets/img/icon/datascience.png" alt="Thumb">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                  
+            </div>
+
+            
+        </div>
+    </div>
+      <!--Start Hiring Process-->
+
+
+
+    <div class="our-story-area default-padding-top" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h4>Hiring Process</h4>
+                        <h2>
+                            How To Get Started 
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="story-items text-center" style="padding-bottom: 40px;">
+                <div class="row">
+                    <!-- Single Item -->
+                    <div class="col-lg-3 col-md-6 single-item">
+                        <div class="item">
+                            <span>01</span>
+                            <h4>Initial Application Round</h4>
+                            <p>Candidates complete an application form which shall act as the initial screening phase. Candidates who succeed at this stage shall be invited to complete an online screening test which shall include a personality test, and a task to demonstrate abilities and commitment to excellence. We review these applications thoroughly to shortlist the most promising candidates.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="col-lg-3 col-md-6 single-item">
+                        <div class="item">
+                            <span>02</span>
+                            <h4>Assessment Center</h4>
+                            <p>Shortlisted candidates are invited to the assessment center, where they participate in a series of activities and interviews to showcase their skills, potential, and alignment with DevJeco's values and vision</p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="col-lg-3 col-md-6 single-item">
+                        <div class="item">
+                            <span>03</span>
+                            <h4>Final Evaluation</h4>
+                            <p>Based on the assessments from , we conduct a thorough evaluation of each candidate's performance, ensuring a comprehensive understanding of their capabilities and fit within our organization.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="col-lg-3 col-md-6 single-item">
+                        <div class="item">
+                            <span>04</span>
+                            <h4>Offer Extension</h4>
+                            <p>The most exceptional candidates who successfully complete the evaluation process will receive an offer to join DevJeco. Our offers reflect our commitment to market-competitive compensation and the opportunity for growth and advancement.
+                                Once candidates accept our offer, we provide a comprehensive onboarding process to ensure a smooth transition into their roles at DevJeco. We believe in supporting the growth and success of our employees from day one.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                    
+
+
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+  
+    
+ 
+
+
+
+    <!-- Star Footer
+    ============================================= -->
+    <footer class="bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <a href="https://forms.gle/Hq4bkNiUyg91BKTo7" target="_blank">
+                        <button class="curved-blue-button"  style="text-align:center;">Apply Now</button>
+                 </a>
+            </div>
+        </div>
+        <div class="container">
+            
+            <div class="f-items default-padding">
+                <div class="row">
+                    <div class="equal-height col-lg-4 col-md-6 item">
+                             <div class="f-item about">
+                            <a href="index"><img src="assets/img/dlogo.png" alt="Logo"  style="width: 150px;"></a>
+                        </div>
+                    </div>
+
+                    <div class="equal-height col-lg-2 col-md-6 item">
+                        <div class="f-item link">
+                            <h4 class="widget-title">Useful Links</h4>
+                            <ul>
+                                <li>
+                                    <a href="blog">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="case-studies">Case Studies</a>
+                                </li>
+                                <li>
+                                    <a href="about-us">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="equal-height col-lg-2 col-md-6 item">
+                        <div class="f-item link">
+                            <h4 class="widget-title">Services</h4>
+                           <ul>
+                                <li><a href="ai-consultancy">AI Consultancy</a></li>
+                                <li><a href="mvp-design">MVP Design</a></li>
+                                <li><a href="data-science">Data Science</a></li>
+                                <li><a href="cloud-computing">Cloud Computing</a></li>
+                                <li><a href="video-analysis">Analysis</a></li>
+                               
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="equal-height col-lg-4 col-md-6 item">
+                        <div class="f-item contact">
+                            <h4 class="widget-title">Contact Info</h4>
+                            <div class="address">
+                                <ul>
+                                    <li>
+                                        <strong>Address:</strong> Kickstart | M M Alam Road, Block 24 C 3 Gulberg III, Lahore
+                                    </li>
+                                    <li>
+                                        <strong>Email:</strong> bd@devjeco.com
+                                    </li>
+                                    <li>
+                                        <strong>Contact:</strong> +92-341-645-8237
+
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="social">
+                                <li class="linkedin">
+                                    <a href="https://www.linkedin.com/company/devjeco/mycompany/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                </li>
+                                <li class="instagram">
+                                    <a href="https://www.instagram.com/lifeatdevjeco/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>&copy; Copyright 2023. All Rights Reserved by DevJeco&#8482</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Shape -->
+        <div class="footer-shape" style="background-image: url(assets/img/shape/1.svg);"></div>
+        <!-- End Shape -->
+    </footer>
+    <!-- End Footer-->
+
+    <!-- jQuery Frameworks
+    ============================================= -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/equal-height.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/modernizr.custom.13711.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/progress-bar.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/count-to.js"></script>
+    <script src="assets/js/YTPlayer.min.js"></script>
+    <script src="assets/js/circle-progress.js"></script>
+    <script src="assets/js/bootsnav.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>

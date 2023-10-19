@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="DevJeco - Innovative AI = Maximum ROI">
+    <meta name="keywords" content="AI, Artificial Intelligence, Big Data, Data Science, Cloud Computing, Text Analysis, Video Analysis, Image Analysis, Data Analysis, Python, Python3.0, PyTorch, Matplotlib, Seaborn, Data Visualisation, Power BI, Tableau, SQL, Postgress, ReGex">
+    <!-- ========== Page Title ========== -->
+    <title>Work - Innovative AI = Maximum ROI - Home</title>
+
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="assets/img/d.png" type="image/x-icon">
+
+    <!-- ========== Start Stylesheet ========== -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/themify-icons.css" rel="stylesheet" />
+    <link href="assets/css/flaticon-set.css" rel="stylesheet" />
+    <link href="assets/css/magnific-popup.css" rel="stylesheet" />
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/bootsnav.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- ========== End Stylesheet ========== -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5/html5shiv.min.js"></script>
+      <script src="assets/js/html5/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ========== Google Fonts ========== -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<style>@media (min-width: 993px) {
+    .woww {
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+    .maximum{
+        max-width: 150%;
+    }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.slider {
+/*   background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125); */
+  height: 150px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
+}
+.slider::before, .slider::after {
+/*   background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); */
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider .slide {
+  height: 100px;
+  width: 250px;
+  padding-left: 20px;
+}
+@media (max-width: 768px) {
+    .slider {
+        width: auto; /* Remove fixed width on smaller screens */
+    }
+}
+hr {
+  border: none; /* Remove the default line */
+  height: 2px; /* Set the height of the line */
+  background-color: #437eeb; /* Set the line color */
+  
+  margin-top: 10%; /* Add margin for spacing above and below the line */
+}
+</style>
+<body class="dark-layout">
+
+    
+
+    <!-- Header 
+    ============================================= -->
+    <header id="home">
+
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-default transparent navbar-fixed navbar-transparent white bootsnav">
+
+            <div class="container">
+
+                <!-- Start Atribute Navigation -->
+                <div class="attr-nav">
+                    <ul>
+                        <li class="side-menu"><a ><i class="ti-menu-alt"></i></a></li>
+                    </ul>
+                </div>        
+                <!-- End Atribute Navigation -->
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index">
+                        <img src="assets/img/dlogo.png" class="logo" alt="Logo" style="width: 225px;">
+                    </a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                   <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li >
+                            <a href="index" >Home</a>
+                        </li>
+                        <li >
+                            <a href="about-us" >About Us</a>
+                        </li>
+                       <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown">Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="ai-chatbot">AI Chatbot</a></li>
+                                <li><a href="netsuite">NetSuite</a></li>
+                            <li><a href="ario">ARIO</a></li>
+                                <li><a href="ai-consultancy">AI Consultancy</a></li>
+                                <li><a href="mvp-design">MVP Design</a></li>
+                                <li><a href="data-science">Data Science</a></li>
+                                <li><a href="cloud-computing">Cloud Computing</a></li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown">Analysis</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="video-analysis">Video Analysis</a></li>
+                                        <li><a href="image-analysis">Image Analysis</a></li>
+                                        <li><a href="text-analysis">Text Analysis</a></li>
+                                    </ul>
+                                </li>
+                         
+                         
+                            </ul>
+                        </li>
+                       <li><a href="work">Work</a></li>
+                        
+                        <li >
+                            <a href="blog">Blog</a>
+                        </li>
+                       
+                        <li>
+                            <a href="contact">Contact</a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+            <div class="side">
+                <a href="#" class="close-side"><i class="ti-close"></i></a>
+                <div class="widget">
+                    <h4 class="title">Contact Info</h4>
+                    <ul class="contact">
+                        <li>
+                            <div class="icon">
+                                <i class="flaticon-email"></i>
+                            </div>
+                            <div class="info">
+                                <span>Email</span> bd@devjeco.com
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="flaticon-call-1"></i>
+                            </div>
+                            <div class="info">
+                                <span>Phone </span> +92-341-645-8237
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="flaticon-countdown"></i>
+                            </div>
+                            <div class="info">
+                                <span>Office Hours</span> Mon - Fri : 10:00 - 7:00
+                            </div> 
+                        </li>
+                    </ul>
+                </div>
+                <div class="widget">
+                    <h4 class="title">Additional Links</h4>
+                    <ul>
+                        <li><a href="about-us">About</a></li>
+                        <li><a href="blog">Blog</a></li>
+                        <li><a href="contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="widget social">
+                    <h4 class="title">Connect With Us</h4>
+                    <ul class="link">
+                        <li class="linkedin">
+                            <a href="https://www.linkedin.com/company/devjeco/mycompany/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                        <li class="linkedin">
+                            <a href="https://www.instagram.com/lifeatdevjeco/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+        <!-- End Navigation -->
+
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Banner 
+    ============================================= -->
+   
+    <!-- End Banner -->
+
+    <!-- Start Services Area
+    ============================================= -->
+    <div class="breadcrumb-area gradient-bg text-light text-center">
+        <!-- Fixed BG -->
+        <div class="fixed-bg" style="background-image: url(assets/img/shape/1.png);"></div>
+        <!-- Fixed BG -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class=" text-center  ">
+                       <h2 class="display-4"><strong>Our Work</strong></h2>
+                        <h2 style="margin-top: 5%;"> Discover how brilliance meets execution with us, and let's bring your visions to life.
+                        </h2>
+                       
+                        <a class="btn circle btn-md btn-gradient wow fadeInUp text-center" href="contact" style="visibility: visible; animation-name: fadeInUp; margin-top: 5%;">Lets Talk <i class="fas  fa-paper-plane"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+       
+        </div>
+    </div>
+  
+  
+  
+
+    <div class="skill-area left-border bg-gray overflow-hidden circular-shape">
+        <div class="container">
+            
+
+            <div class="center-tabs">
+                <ul id="tabs" class="nav nav-tabs">
+                  
+                </ul>
+                <div id="tabsContent" class="tab-content wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <div id="tab1" class="tab-pane fade active show">
+                        <div class="row align-center">
+                            <div class="col-lg-6 col-md-12 info">
+                                <h3>Rapid Hire</h3>
+                                <p>
+                                    Rapid Hire 45,000 employees with a 2% turnover, facing challenges screening 120,000+ candidates. Lacking automation, ATS, and AI tools, their 25 executives relied on manual workflows. Despite using tools like ADP, TalkPush, SHL, and immersion, AI-driven insights were absent. Our solutions saved 5,000+ hours (>$100,000) and boosted retention by 37% with our ML algorithm. The integrated dashboard streamlined workflow, providing Afni with an efficient solution.
+                                </p>
+                                <a href="/" target="_blank">In Progress
+                                    
+                                </a>
+                           
+                            </div>
+                            <div class="col-lg-6 col-md-12 thumb">
+                                <img class="maximum" src="assets/img/logos/vector1.png" alt="Thumb">
+                            </div>
+                        </div>
+                    </div>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="skill-area left-border bg-gray overflow-hidden circular-shape">
+        <div class="container">
+            
+
+            <div class="center-tabs">
+                <ul id="tabs" class="nav nav-tabs">
+                  
+                </ul>
+                <div id="tabsContent" class="tab-content wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <div id="tab1" class="tab-pane fade active show">
+                        <div class="row align-center">
+                            <div class="col-lg-6 col-md-12 info">
+                                <h3>Zillion Holdings</h3>
+                                <p>
+                                    Provided services in revamping the existing portal and building fast order functionality for provision of efficient tourism services for the potential clients.
+                                </p>
+                                <a href="https://landexpeditions.com/agent/home" target="_blank">Learn More <i class="fas fa-long-arrow-alt-right ms-2"></i></a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 thumb">
+                                <img class="maximum" src="assets/img/logos/2.png" alt="Thumb">
+                            </div>
+                        </div>
+                    </div>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="skill-area left-border bg-gray overflow-hidden circular-shape">
+        <div class="container">
+            
+
+            <div class="center-tabs">
+                <ul id="tabs" class="nav nav-tabs">
+                  
+                </ul>
+                <div id="tabsContent" class="tab-content wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <div id="tab1" class="tab-pane fade active show">
+                        <div class="row align-center">
+                            <div class="col-lg-6 col-md-12 info">
+                                <h3>Lyft</h3>
+                                <p>
+                                    Developed application for our client to ensure efficient booking services along with smooth customer service for the people availing technical support revolutionising driving experiences.
+                                </p>
+                                <a href="https://www.lyft.com/" target="_blank">Learn More <i class="fas fa-long-arrow-alt-right ms-2"></i></a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 thumb">
+                                <img class="maximum" src="assets/img/logos/3.png" alt="Thumb">
+                            </div>
+                        </div>
+                    </div>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="skill-area left-border bg-gray overflow-hidden circular-shape ">
+        <div class="container">
+            
+
+            <div class="center-tabs">
+                <ul id="tabs" class="nav nav-tabs">
+                  
+                </ul>
+                <div id="tabsContent" class="tab-content wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <div id="tab1" class="tab-pane fade active show">
+                        <div class="row align-center">
+                            <div class="col-lg-6 col-md-12 info">
+                                <h3>Pinoy Tourism</h3>
+                                <p>
+                                    Developed a website for our clients, revolutionizing the tourism industry by providing efficient booking services and delivering exceptional customer experiences. Our platform ensures seamless travel planning, offering travelers a gateway to unforgettable adventures. 
+                                </p>
+                                <a href="https://pinoytourism.co.uk/" target="_blank">Learn More <i class="fas fa-long-arrow-alt-right ms-2"></i></a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 thumb">
+                                <img class="maximum" src="assets/img/logos/4.png" alt="Thumb">
+                            </div>
+                        </div>
+                    </div>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="skill-area left-border bg-gray overflow-hidden circular-shape ">
+        <div class="container">
+            
+
+            <div class="center-tabs">
+                <ul id="tabs" class="nav nav-tabs">
+                  
+                </ul>
+                <div id="tabsContent" class="tab-content wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <div id="tab1" class="tab-pane fade active show">
+                        <div class="row align-center">
+                            <div class="col-lg-6 col-md-12 info">
+                                <h3>Epi-Food</h3>
+                                <p>
+                                    Develop an online platform dedicated to promoting healthy living through a carefully curated collection of diet-conscious recipes. Our website is designed to cater to health-conscious individuals seeking nutritious and delicious culinary options. With a user-friendly interface, our platform delivers a seamless experience for accessing a diverse range of diet-friendly recipes and nutritional information.
+                                </p>
+                                <a href="https://epi-food.de/" target="_blank">Learn More <i class="fas fa-long-arrow-alt-right ms-2"></i></a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 thumb">
+                                <img class="maximum" src="assets/img/logos/5.png" alt="Thumb">
+                            </div>
+                        </div>
+                    </div>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="skill-area left-border bg-gray overflow-hidden circular-shape ">
+        <div class="container">
+            
+
+            <div class="center-tabs">
+                <ul id="tabs" class="nav nav-tabs">
+                  
+                </ul>
+                <div id="tabsContent" class="tab-content wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <div id="tab1" class="tab-pane fade active show">
+                        <div class="row align-center">
+                            <div class="col-lg-6 col-md-12 info">
+                                <h3>Oppgradert Bad</h3>
+                                <p>
+                                   Built a wordpress website from scratch in Norwegian language for the client providing plumbing services in order to create ease in provision of the desired services.
+                                </p>
+                                <a href="https://oppgradertbad.no/" target="_blank">Learn More <i class="fas fa-long-arrow-alt-right ms-2"></i></a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 thumb">
+                                <img class="maximum" src="assets/img/logos/6.png" alt="Thumb">
+                            </div>
+                        </div>
+                    </div>
+                 
+                </div>
+            </div>
+        </div>
+     
+
+    </div>
+    <!-- End Services Area -->
+   
+    <!-- Star About Area
+    ============================================= -->
+    
+    <!-- End About Area -->
+
+    <!-- Star Our Story
+    ============================================= -->
+    
+    <!-- End Our Story -->
+
+    <!-- Start Skill Area
+    ============================================= -->
+   
+    <!-- End Skill Area -->
+
+    <!-- Start Testimonials Area
+    ============================================= -->
+
+    
+       
+        <!-- End Features --></div>
+  
+    <!-- End Testimonials Area -->
+
+    <!-- Star Projects
+    ============================================= -->
+    
+    <!-- End Projects -->
+
+    <!-- Start Our Team 
+    ============================================= -->
+    
+    <!-- End Our Team -->
+
+    <!-- Start Blog Area
+    ============================================= -->
+    
+    <!-- End Blog Area -->
+
+    <!-- Start Contact Area
+    ============================================= -->
+   
+    <!-- End Contact -->
+
+    <!-- Star Footer
+    ============================================= -->
+    <footer class="bg-gray text-light">
+        <div class="container">
+            <div class="f-items default-padding">
+                <div class="row">
+                    <div class="equal-height col-lg-4 col-md-6 item">
+                             <div class="f-item about">
+                            <a href="index"><img src="assets/img/dlogo.png" alt="Logo"  style="width: 150px;"></a>
+                        </div>
+                    </div>
+
+                    <div class="equal-height col-lg-2 col-md-6 item">
+                        <div class="f-item link">
+                            <h4 class="widget-title">Useful Links</h4>
+                            <ul>
+                                <li>
+                                    <a href="blog">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="case-studies">Case Studies</a>
+                                </li>
+                                <li>
+                                    <a href="about-us">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="equal-height col-lg-2 col-md-6 item">
+                        <div class="f-item link">
+                            <h4 class="widget-title">Services</h4>
+                            <ul >
+                                <li><a href="ai-consultancy">AI Consultancy</a></li>
+                                <li><a href="mvp-design">MVP Design</a></li>
+                                <li><a href="data-science">Data Science</a></li>
+                                <li><a href="cloud-computing">Cloud Computing</a></li>
+                                <li><a href="video-analysis">Video Analysis</a></li>
+                                <li><a href="image-analysis">Image Analysis</a></li>
+                                <li><a href="text-analysis">Text Analysis</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="equal-height col-lg-4 col-md-6 item">
+                        <div class="f-item contact">
+                            <h4 class="widget-title">Contact Info</h4>
+                            
+                            <div class="address">
+                                <ul>
+                                    <li>
+                                        <strong>Address:</strong> Delaware, US | Dubai, UAE | Lahore, Pakistan
+                                    </li>
+                                    <li>
+                                        <strong>Email:</strong> bd@devjeco.com
+                                    </li>
+                                    <li>
+                                        <strong>Contact:</strong> +92-341-645-8237
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="social">
+                                <li class="linkedin">
+                                    <a href="https://www.linkedin.com/company/devjeco/mycompany/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                </li>
+                                <li class="instagram">
+                                    <a href="https://www.instagram.com/lifeatdevjeco/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>&copy; Copyright 2023. All Rights Reserved by DevJeco&#8482</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Shape -->
+        <div class="footer-shape" style="background-image: url(assets/img/shape/1.svg);"></div>
+        <!-- End Shape -->
+    </footer>
+    <!-- End Footer-->
+
+    <!-- jQuery Frameworks
+    ============================================= -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/equal-height.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/modernizr.custom.13711.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/progress-bar.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/count-to.js"></script>
+    <script src="assets/js/YTPlayer.min.js"></script>
+    <script src="assets/js/circle-progress.js"></script>
+    <script src="assets/js/bootsnav.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
